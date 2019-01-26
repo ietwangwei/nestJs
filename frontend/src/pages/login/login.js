@@ -19,10 +19,7 @@ class Login extends React.Component {
     e.preventDefault()
     this.props.form.validateFields((err, values) => {
       if (!err) {
-        this.setState((loginForm) => {
-          loginForm = values
-        })
-        // this.props.history.push('home')
+        this.props.history.push('home')
       }
     })
   }
