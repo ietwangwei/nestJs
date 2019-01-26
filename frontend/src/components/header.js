@@ -40,7 +40,6 @@ class Header extends Component {
                   </span>
                 </Dropdown>
               </Menu.Item>
-              <Menu.Item>我收藏的</Menu.Item>
               <Menu.Item>
                 <Dropdown overlay={usersMenu}>
                   <span>
